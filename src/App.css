@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  background-color: darkcyan;
+}
+
+h2 {
+  color: white;
+  font-weight: bolder;
 }
 
 .App-logo {
@@ -21,6 +31,47 @@
 
 .App-link {
   color: #61dafb;
+}
+
+p {
+  font-style: italic;
+}
+
+.todo{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+form {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 7px;
+  width: fit-content;
+}
+
+input {
+  height: 30px;
+  font-size: initial;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border-radius: 4px;
+  padding: 7px;
+  background-color: lightblue;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
